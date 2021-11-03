@@ -1,0 +1,619 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css" integrity="sha512-NmLkDIU1C/C88wi324HBc+S2kLhi08PN5GDeUVVVC/BVt/9Izdsc9SVeVfA1UZbY3sHUlDSyRXhCzHfr6hmPPw==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css" integrity="sha512-6lLUdeQ5uheMFbWm3CP271l14RsX1xtx+J5x2yeIDkkiBpeVTNhTqijME7GgRKKi6hCqovwCoBTlRBEC20M8Mg==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css" integrity="sha512-wR4oNhLBHf7smjy0K4oqzdWumd+r5/+6QO/vDda76MW5iug4PT7v86FoEkySIJft3XA0Ae6axhIvHrqwm793Nw==" crossorigin="anonymous" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;700&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="./style/modal.css">
+
+    <!-- <link rel="stylesheet" href="./wowjs/animate.css"> -->
+    <title>Diploma</title>
+</head>
+<body>
+    <header class="header header-sticky">
+        <div class="container container-header">
+            <div class="logo">
+                <div>
+                    <img src="./img/logo.svg" alt="">
+                </div>
+                <div>
+                    <p class="header-text">
+                        Foundation
+                    </p>
+                    <p class="header-subtext">
+                        Startup landing template
+                    </p>
+                </div>
+            </div>
+            <div class="header-menu">
+                <input class="header-checkbox" type="checkbox" name="" id="">
+                <div class="header-wrapper">
+                    <div class="checked"></div>
+                    <div class="checked"></div>
+                    <div class="checked"></div>
+                </div>
+                <nav class="header-nav">
+                    <ul>
+                        <li class="header-li">
+                            <a id="home" href="">
+                                Home
+                            </a>
+                        </li>
+                        <li class="header-li">
+                            <a id="stories" href="">
+                                Stories
+                            </a>
+                        </li>
+                    </ul>
+                    <div>
+                        <button class="button">
+                            Get started
+                        </button>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <section class="subheader">
+        <div class="container subheader-wrapper">
+            <div class="subheader-top">
+                <h1 class="subheader-title">
+                    Build stunning websites & apps.
+                </h1>
+                <p class="subheader-text">
+                    Create live segments and target the right people for messages based on their behaviors.
+                </p>
+                <div class="subheader-buttons">
+                    <button class="button">
+                        Get started
+                </button>
+                    <button id="modal-button" class="button">
+                        Learn more
+                    </button>
+                </div>
+            </div>
+            <div class="subheader-bg">
+                <img src="./img/promo-img.png" alt="">
+            </div>
+        </div>
+    </section>
+    <section class="promo">
+       <div  class="container container-promo">
+           <div>
+                <p class="promo-title">
+                    What is it about?
+                </p>
+                <p class="promo-subtitle">
+                    Building a website for a startup that looks amazing is not a rocket science anymore.
+                </p>
+           </div>
+           <div>
+                <p class="promo-title">
+                    Who is it for?
+                </p>
+                <p class="promo-subtitle">
+                    Startups, small companies and teams, entrepreneurs and web developers.
+                </p>
+            </div>
+    </section>
+    <section class="logos">
+        <div class="container container-logos">
+            <img src="./img/b-w icons/Bitmap.svg" alt="NYT">
+            <img src="./img/b-w icons/Bitmap (1).svg" alt="Forbes">
+            <img src="./img/b-w icons/Bitmap (2).svg" alt="AppleInc">
+            <img src="./img/b-w icons/Bitmap (3).svg" alt="Mashable">
+            <img src="./img/b-w icons/Bitmap (4).svg" alt="WSJ">
+            <img src="./img/b-w icons/Bitmap (5).svg" alt="Google">
+        </div>
+    </section>
+    <section class="features">
+        <div class="container container-features">
+            <img class="features-animation" src="./img/features/features-animation.png" alt="">
+            <div>
+                <p class="sup-title sup-title__green">
+                    Features
+                </p>
+                <p class="title-text">
+                    Easily find leads and customers
+                </p>
+                <p class="default-text">
+                    Send one-off and automated email, push, and in-app messages to people. Create better stories.
+                </p>
+                <div class="features-item__container">
+                    <div class="features-item">
+                        <div>
+                            <p class="features-title__small">
+                                <img src="./img/features/compass.svg" alt="">
+                                Acquire new customers  
+                            </p>
+                        </div>
+                        <p class="features-wrapped">
+                            Everything you need to start building – including open-source code, documentation.
+                        </p>
+                        <div class="features-line"></div>
+                    </div>
+                    <div class="features-item">
+                        <div>
+                            <p class="features-title__small">
+                                <img src="./img/features/museum.svg" alt="">
+                                Engage users
+                            </p>
+                        </div>
+                        <p class="features-wrapped">
+                            Everything you need to start building – including open-source code, documentation.
+                        </p>
+                        <div class="features-line"></div>
+                    </div>
+                    <div class="features-item">
+                        <div>
+                            <p class="features-title__small">
+                                <img src="./img/features/storage.svg" alt="">
+                                Develop across platforms 
+                            </p>
+                        </div>
+                        <p class="features-wrapped">
+                            Everything you need to start building – including open-source code, documentation.
+                        </p>
+                        <div class="features-line"></div>
+                    </div>
+                </div>
+            </div>
+            <img class="features-img" src="./img/features/Invision Screen.png" alt="">
+        </div>
+    </section>
+    <section id="homeo" class="conversations">
+        <div class="container container-conversations">
+            <img src="./img/wheel.png" alt="Wheel">
+            <div>
+                <p class="sup-title sup-title__red">
+                    Team Inbox
+                </p>
+                <p class="title-text">
+                    Manage conversations
+                </p>
+                <p class="default-text">
+                    One place to manage and respond to all conversations with leads and users. Receive messages from leads.
+                </p>
+                <div class="quite-box">
+                    <p class="quite-text">
+                        “Great widgets. Great selection. Great design and <span>easy to implement.</span> Definitely a huge time saver for a web developer!”
+                    </p>
+                    <div class="quite">
+                        <img src="./img/Profile Image.png" alt="Portrait">
+                        <div>
+                            <p class="quite-info__bold">
+                                Viella Malkovich
+                            </p>
+                            <p class="quite-info">
+                                Creative Director at Johnson
+                            </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="busy">
+        <div class="container container-busy">
+            <div>
+                <p class="sup-title sup-title__blue">
+                    Communicate Better
+                </p>
+                <p class="title-text">
+                    Built for busy small teams
+                </p>
+                <p class="default-text">
+                    Three products that can be used independently or combined together for your company’s needs.
+                </p>
+                <div>
+                    <button class="button2">
+                        Get started
+                    </button>
+                </div>
+                <p class="line"></p>
+            </div>
+            <div>
+                <img src=".//img/pic2.png" alt="">
+            </div>
+        </div>
+    </section>
+    <section class="guide">
+        <div class="container container-guide">
+        <div>
+            <p class="guide-text">
+                <span>Subscriptions. </span>Foundation works with the tools and services you already use every day.
+            </p>
+            <div>
+                <a class="guideline" href="">
+                    Learn more about subscriptions
+                </a>
+            </div>
+        </div>
+        <div>
+            <p class="guide-text">
+                <span>Flexible Hours. </span>Get started with our simple snippet of JavaScript or easy to install SDKs for iOS and Android.
+            </p>
+            <div>
+                <a class="guideline" href="">
+                    Get more info about hours
+                </a>
+            </div>
+        </div>
+        <div>
+            <p class="guide-text">
+                <span>Fast Communication.</span> We offer measures like 2FA and SSO to ensure the safety of your data.
+            </p>
+            <div>
+                <a class="guideline" href="">
+                    Communication guidelines
+                </a>
+            </div>
+        </div>
+        </div>
+    </section>
+    <section class="engage">
+        <div class="container">
+            <div class="engage-container">
+                <p class="engage-suptitle">
+                    Engage Visitors
+                </p>
+                <h2 class="engage-title">
+                    Understand your audience
+                </h2>
+                <p class="engage-text">
+                    Early stage company? Eligible applicants get all of our products for just $49 a month.
+                </p>
+            </div>
+            <div class="engage-container">
+                <button class="button">
+                    Get started
+                </button>
+                <button class="button">
+                    Learn more
+                </button>
+            </div>
+            <div class="wrapper">
+                <item class="item">
+                    <img class="item-img" src="./img/engage/ouch(1).png" alt="">
+                    <p class="item-text">Developers</p>
+                </item>
+                <item class="item">
+                    <img class="item-img" src="./img/engage/ouch(2).png" alt="">
+                    <p class="item-text">Entertainment</p>
+                </item>
+                <item class="item">
+                    <img class="item-img" src="./img/engage/ouch(3).png" alt="">
+                    <p class="item-text">Athletes</p>
+                </item>
+                <item class="item">
+                    <img class="item-img" src="./img/engage/ouch(4).png" alt="">
+                    <p class="item-text">Creators</p>
+                </item>
+            </div>
+        </div>
+    </section>
+    <section class="logos">
+        <div class="container container-logos">
+            <img class="logotype" src="./img/b-w icons/Bitmap.svg" alt="">
+            <img class="logotype" src="./img/b-w icons/Bitmap (1).svg" alt="">
+            <img class="logotype" src="./img/b-w icons/Bitmap (2).svg" alt="">
+            <img class="logotype" src="./img/b-w icons/Bitmap (3).svg" alt="">
+            <img class="logotype" src="./img/b-w icons/Bitmap (4).svg" alt="">
+            <img class="logotype" src="./img/b-w icons/Bitmap (5).svg" alt="">
+        </div>
+    </section>
+    <section id="carousel" class="carusel">
+        <div class="container container-carusel">
+            <div class="carusel-slider">
+                <div class="carusel-item">
+                    <p class="carusel-title">
+                        Trusted by the world’s most innovative businesses – big and small
+                    </p>
+                    <p class="carusel-text">
+                        “Comprehensive set of startup tools for all imaginable entrepreneurial needs. Create landing pages, send emails, find freelancers. Perfect for sales, marketing, and support”
+                    </p>
+                    <div>
+                        <p class="carusel-author author-bold">
+                            Viella Malkovich
+                        </p>
+                        <p class="carusel-author">
+                            Creative Director at Johnson
+                        </p>
+                    </div>
+                </div>
+                <div class="carusel-item">
+                    <p class="carusel-title">
+                        Trusted by the world’s most innovative businesses – big and small
+                    </p>
+                    <p class="carusel-text">
+                        “Genius is one percent inspiration and 99 percent perspiration”
+                    </p>
+                    <div>
+                        <p class="carusel-author author-bold">
+                            Thomas Edison
+                        </p>
+                        <p class="carusel-author">
+                            Physicist, inventor
+                        </p>
+                    </div>
+                </div>
+                <div class="carusel-item">
+                    <p class="carusel-title">
+                        Trusted by the world’s most innovative businesses – big and small
+                    </p>
+                    <p class="carusel-text">
+                        “I fear not the man who has practiced 10,000 kicks once, but I fear the man who has practiced one kick 10,000 times.”
+                    </p>
+                    <div>
+                        <p class="carusel-author author-bold">
+                            Bruce Lee
+                        </p>
+                        <p class="carusel-author">
+                            Actor, producer, stuntman
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <img src="./img/balloon.png" alt="">
+        </div>
+    </section>
+    <section class="hiring">
+        <div class="container container-hiring">
+            <div>
+                <h3 class="hiring-title">
+                    We're hiring
+                </h3>
+                <p class="hiring-text">
+                    We're a team of lifelong learners. We’re equal parts left and right brained.
+                </p>
+                <button class="button2">
+                    More about Company
+                </button>
+            </div>
+            <div class="hiring-item__container">
+                <div class="hiring-items">
+                    <div>
+                        <p class="hiring-title__small">
+                            Front-End Developer
+                        </p>
+                        <p class="hiring-position">
+                            Los Angeles / Remote
+                        </p>
+                        <p class="hiring-icon">
+                            ➤
+                        </p>
+                    </div>
+                    <p class="hiring-wrapped">
+                        Everything you need to start building – including open-source code, documentation.
+                    </p>
+                </div>
+                <div class="hiring-items">
+                    <div>
+                        <p class="hiring-title__small">
+                            Community Manager
+                        </p>
+                        <p class="hiring-position">
+                            New York / Full-Time
+                        </p>
+                        <p class="hiring-icon">
+                            ➤
+                        </p>
+                    </div>
+                    <p class="hiring-wrapped">
+                        Everything you need to start building – including open-source code, documentation.
+                    </p>
+                </div>
+                <div class="hiring-items">
+                    <div>
+                        <p class="hiring-title__small">
+                            UX/UI Designer
+                        </p>
+                        <p class="hiring-position">
+                            New York / Full-Time
+                        </p>
+                        <p class="hiring-icon">
+                            ➤
+                        </p>
+                    </div>
+                    <p class="hiring-wrapped">
+                        Everything you need to start building – including open-source code, documentation.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="surface">
+    <div class="container">
+        <div class="surface-container">
+            <h2 class="engage-title">
+                All Surfaces Covered
+            </h2>
+            <p class="engage-text">
+                IOON kills bacteria on your hands, food, tables, laptops, you name it
+            </p>
+        </div>
+        <div class="surface-wrapper">
+            <img src="./img/surface/img1.png" alt="Apple">
+            <img src="./img/surface/img2.png" alt="Bus">
+            <img src="./img/surface/img3.png" alt="Man">
+            <img src="./img/surface/img4.png" alt="Hand">
+            <img src="./img/surface/img5.png" alt="Smartphone">
+            <img src="./img/surface/img6.png" alt="Baby">
+            <img src="./img/surface/img7.png" alt="Dog">
+        </div>
+    </div>
+    </section>
+    <section class="trial">
+        <div class="container trial-container">
+            <div>
+                <img class="trial-animation" src="./img/window.png" alt="Window">
+            </div>
+            <form action="">
+                <p class="trial-title">
+                    Start your free trial.
+                </p>
+                <p class="trial-text">
+                    Get notified about company updates, news and blog posts. We hate spam.
+                </p>
+                <input class="trial-input" placeholder="Enter your e-mail" type="text">
+                <button class="button">
+                    Get Started
+                </button>
+                <p class="trial-subtext">
+                    Free 14-day trial · Easy setup · Cancel any time. Check out <a href="">Terms of Use.</a>
+                </p>
+            </form>
+        </div>
+    </section>
+    <section class="footer">
+        <div class="container container-footer">
+            <div>
+                <div class="logo-footer">
+                    <div>
+                        <img src="./img/icon-end.svg" alt="">
+                    </div>
+                    <div>
+                        <p class="footer-logo-text">
+                            Foundation
+                        </p>
+                        <p class="footer-logo-subtext">
+                            Startup landing template
+                        </p>
+                    </div>
+                </div>
+                    <p class="footer-text">
+                        Foundation is a website template for startups and small teams. It helps to build a website in no time.
+                    </p>
+                    <div class="footer-buttons">
+                        <button class="footer-button">
+                            <img src="./img/AppStore.png" alt="">
+                        </button>
+                        <button class="footer-button">
+                            <img src="./img/Google Play.png" alt="">
+                            <p>
+                        </button>
+                    </div>
+            </div>
+            <div class="footer-flex">
+                <div>
+                    <p class="footer-subtitle">
+                        Product
+                    </p>
+                    <div>
+                        <a class="footer-link" href="">
+                            Acquire Users
+                        </a>
+                    </div>
+                    <div>
+                        <a class="footer-link" href="">
+                            Content Marketing
+                        </a>
+                    </div>
+                    <div>
+                        <a class="footer-link" href="">
+                            Website Templates
+                        </a>
+                    </div>
+                    <div>
+                        <a class="footer-link" href="">
+                            Customer Management
+                        </a>
+                    </div>
+                    <div>
+                        <a class="footer-link" href="">
+                            Virtual Inbox
+                        </a>
+                    </div>
+                </div>
+                <div>
+                    <p class="footer-subtitle">
+                        Company
+                    </p>
+                    <div>
+                        <a class="footer-link" href="">
+                            About Foundation
+                        </a>
+                    </div>
+                    <div>
+                        <a class="footer-link" href="">
+                            Brand Guidelines
+                        </a>
+                    </div>
+                    <div>
+                        <a class="footer-link" href="">
+                            Press Kit
+                        </a>
+                    </div>
+                    <div>
+                        <a class="footer-link" href="">
+                            Support
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container container-bottom">
+            <div>
+                <a class="footer-botlink" href="">
+                    Terms
+                </a>
+                <a class="footer-botlink" href="">
+                    Privacy
+                </a>
+                <a class="footer-botlink" href="">
+                    License
+                </a>
+            </div>
+            <div class="bot-icons">
+                <a href="">
+                    <img src="./img/footer/icon-twitter.png" alt="Twitter">
+                </a>
+                <a href="">
+                    <img src="./img/footer/icon-fb.png" alt="Facebook">
+                </a>
+                <a href="">
+                    <img src="./img/footer/LinkedIn.png" alt="LinkedIn">
+                </a>
+            </div>
+        </div>
+    </footer>
+    <div class="modal-overlay">
+        <div class="modal">
+            <div>
+                <div class="modal-content">
+                    <img src="./img/promo-img.png" alt="">
+                    <p>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ab rem reprehenderit, ducimus voluptatibus vero hic.
+                    </p>
+                </div>
+                <p class="modal-close">
+                    X
+                </p>
+            </div>
+        </div>
+    </div>
+    <div id="up">
+        <i class="fas fa-chevron-up"></i>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js" integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg==" crossorigin="anonymous"></script>
+    <script src="script/script.js"></script>
+    <script src="script/modal.js"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>     
+    <script src="https://cdn.jsdelivr.net/parallax.js/1.4.2/parallax.min.js"></script>
+    <script src="./wowjs/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script> -->
+</body>
+</html>
