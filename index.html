@@ -455,15 +455,17 @@
             <div>
                 <img class="trial-animation" src="./img/window.png" alt="Window">
             </div>
-            <form action="">
+            <form method="POST">
                 <p class="trial-title">
                     Start your free trial.
                 </p>
                 <p class="trial-text">
                     Get notified about company updates, news and blog posts. We hate spam.
                 </p>
-                <input class="trial-input" placeholder="Enter your e-mail" type="text">
-                <button class="button">
+                <input class="trial-input" placeholder="Enter your e-mail" type="email" id="trial-email">
+                <p id="trial-error__email" class="error-message">
+                </p>
+                <button id="trial-button__submit" class="button" type="submit">
                     Get Started
                 </button>
                 <p class="trial-subtext">

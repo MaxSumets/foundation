@@ -13,8 +13,29 @@ $('.features-item > div').on('click', function(){
 
 $('.carusel-slider').slick({
     dots: true,
-    adaptiveHeight: true,
+    // adaptiveHeight: true,
     arrows: false,
-    // autoplay: true,
+    autoplay: true,
     autoplaySpeed: 5000,
+})
+
+$('#trial-button__submit').on('click', function(e){
+    e.preventDefault();
+
+    let email = $('#trial-email').val().trim();
+
+    if(email == ""){
+        $('#trial-error__email').text('Enter your email');
+    }
+
+    $.ajax({
+        url: 'ajax/telegram.php',
+        type: 'POST',
+        cache: false,
+        data: {'email': email},
+        dataType: 'html',
+        success: function(){
+            
+        }
+    })
 })
