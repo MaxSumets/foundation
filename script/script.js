@@ -35,7 +35,7 @@ $('#trial-button__submit').on('click', function(e){
         data: {'email': email},
         dataType: 'html',
         success: function(){
-            
+            $('#trial-email').val('');
         }
     })
 })
